@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name PV-Monitor)(type KiCad)(uri ${KIPRJMOD}/PV-Monitor.pretty)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri C:/Users/drasv/Documents/KiCad/Libraries/SparkFun-KiCad-Libraries/Footprints.pretty)(options "")(descr ""))
+  (lib (name Boards)(type KiCad)(uri C:/Users/drasv/Documents/KiCad/Libraries/SparkFun-KiCad-Libraries/Footprints/Boards.pretty)(options "")(descr ""))
 )
