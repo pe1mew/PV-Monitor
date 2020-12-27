@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PV-Monitor)(type KiCad)(uri ${KIPRJMOD}/PV-Monitor.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PV-Monitor)(type Legacy)(uri ${KIPRJMOD}/PV-Monitor.lib)(options "")(descr ""))
+)
