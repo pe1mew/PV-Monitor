@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name PV-Monitor)(type Legacy)(uri ${KIPRJMOD}/PV-Monitor.lib)(options "")(descr ""))
+  (lib (name PV-Monitor-rescue)(type Legacy)(uri ${KIPRJMOD}/PV-Monitor-rescue.lib)(options "")(descr ""))
 )

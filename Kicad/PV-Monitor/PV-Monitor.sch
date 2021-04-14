@@ -48,7 +48,7 @@ LOAD+
 Text Notes 1400 1050 2    50   ~ 0
 LOAD-
 $Comp
-L SparkFun-PowerSymbols:GND #GND01
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND01
 U 1 1 5FE8A971
 P 1850 1750
 F 0 "#GND01" H 1900 1700 45  0001 L BNN
@@ -85,7 +85,7 @@ CHG_BATT_POS
 Text Label 2550 1550 2    50   ~ 0
 CHG_PV_POS
 $Comp
-L SparkFun-PowerSymbols:GND #GND05
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND05
 U 1 1 5FE8B77B
 P 3950 1750
 F 0 "#GND05" H 4000 1700 45  0001 L BNN
@@ -133,7 +133,7 @@ F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Capacitors:1.0UF-1206-50V-10% C1
+L PV-Monitor-rescue:1.0UF-1206-50V-10%-SparkFun-Capacitors C1
 U 1 1 5FE90E33
 P 2350 2750
 F 0 "C1" H 2458 2895 45  0000 L CNN
@@ -145,7 +145,7 @@ F 4 "CAP-09822" H 2458 2716 60  0000 L CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Capacitors:1.0UF-1206-50V-10% C2
+L PV-Monitor-rescue:1.0UF-1206-50V-10%-SparkFun-Capacitors C2
 U 1 1 5FE916E0
 P 3450 2750
 F 0 "C2" H 3558 2895 45  0000 L CNN
@@ -175,7 +175,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 2850 3450 2950
 $Comp
-L SparkFun-PowerSymbols:GND #GND02
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND02
 U 1 1 5FE94424
 P 2350 2950
 F 0 "#GND02" H 2400 2900 45  0001 L BNN
@@ -186,7 +186,7 @@ F 3 "" H 2350 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND03
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND03
 U 1 1 5FE94AB0
 P 2900 2950
 F 0 "#GND03" H 2950 2900 45  0001 L BNN
@@ -197,7 +197,7 @@ F 3 "" H 2900 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND04
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND04
 U 1 1 5FE94E09
 P 3450 2950
 F 0 "#GND04" H 3500 2900 45  0001 L BNN
@@ -223,7 +223,7 @@ F 3 "" H 6000 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND06
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND06
 U 1 1 5FEA2E3D
 P 6000 2350
 F 0 "#GND06" H 6050 2300 45  0001 L BNN
@@ -255,7 +255,7 @@ F 3 "" H 6000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND07
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND07
 U 1 1 5FEA757D
 P 6000 4200
 F 0 "#GND07" H 6050 4150 45  0001 L BNN
@@ -289,7 +289,7 @@ F 3 "" H 6000 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND08
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND08
 U 1 1 5FEA8629
 P 6000 6050
 F 0 "#GND08" H 6050 6000 45  0001 L BNN
@@ -344,7 +344,7 @@ F 3 "~" H 9350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND011
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND011
 U 1 1 5FEAFC6C
 P 9350 2150
 F 0 "#GND011" H 9400 2100 45  0001 L BNN
@@ -377,7 +377,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 2050 9750 2150
 $Comp
-L SparkFun-PowerSymbols:GND #GND014
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND014
 U 1 1 5FEB3BD2
 P 9750 2150
 F 0 "#GND014" H 9800 2100 45  0001 L BNN
@@ -427,7 +427,7 @@ F 3 "~" H 9300 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND010
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND010
 U 1 1 5FEBFDE6
 P 9300 4000
 F 0 "#GND010" H 9350 3950 45  0001 L BNN
@@ -460,7 +460,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3900 9700 4000
 $Comp
-L SparkFun-PowerSymbols:GND #GND013
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND013
 U 1 1 5FEBFDF8
 P 9700 4000
 F 0 "#GND013" H 9750 3950 45  0001 L BNN
@@ -500,7 +500,7 @@ F 3 "~" H 9250 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND09
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND09
 U 1 1 5FEC2405
 P 9250 5850
 F 0 "#GND09" H 9300 5800 45  0001 L BNN
@@ -533,7 +533,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 5750 9650 5850
 $Comp
-L SparkFun-PowerSymbols:GND #GND012
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND012
 U 1 1 5FEC2417
 P 9650 5850
 F 0 "#GND012" H 9700 5800 45  0001 L BNN
@@ -563,7 +563,7 @@ V_SENSE_BATT
 Text Label 9850 5300 0    50   ~ 0
 V_SENSE_PV
 $Comp
-L SparkFun-Boards:ARDUINO_PRO_MINI B1
+L PV-Monitor-rescue:ARDUINO_PRO_MINI-SparkFun-Boards B1
 U 1 1 5FEC493B
 P 2900 6650
 F 0 "B1" H 2900 7710 45  0000 C CNN
@@ -637,7 +637,7 @@ F 3 "~" H 7050 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND018
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND018
 U 1 1 5FEE0023
 P 7050 2350
 F 0 "#GND018" H 7100 2300 45  0001 L BNN
@@ -676,7 +676,7 @@ F 3 "~" H 7050 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND019
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND019
 U 1 1 5FEE4391
 P 7050 4200
 F 0 "#GND019" H 7100 4150 45  0001 L BNN
@@ -716,7 +716,7 @@ F 3 "~" H 7050 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND020
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND020
 U 1 1 5FEE7784
 P 7050 6050
 F 0 "#GND020" H 7100 6000 45  0001 L BNN
@@ -754,7 +754,7 @@ $EndComp
 Wire Wire Line
 	6550 5950 6550 6050
 $Comp
-L SparkFun-PowerSymbols:GND #GND017
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND017
 U 1 1 5FF0581C
 P 6550 6050
 F 0 "#GND017" H 6600 6000 45  0001 L BNN
@@ -778,7 +778,7 @@ $EndComp
 Wire Wire Line
 	7400 5950 7400 6050
 $Comp
-L SparkFun-PowerSymbols:GND #GND023
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND023
 U 1 1 5FF07F7A
 P 7400 6050
 F 0 "#GND023" H 7450 6000 45  0001 L BNN
@@ -802,7 +802,7 @@ $EndComp
 Wire Wire Line
 	6550 4100 6550 4200
 $Comp
-L SparkFun-PowerSymbols:GND #GND016
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND016
 U 1 1 5FF0AA2B
 P 6550 4200
 F 0 "#GND016" H 6600 4150 45  0001 L BNN
@@ -826,7 +826,7 @@ $EndComp
 Wire Wire Line
 	7400 4100 7400 4200
 $Comp
-L SparkFun-PowerSymbols:GND #GND022
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND022
 U 1 1 5FF0D484
 P 7400 4200
 F 0 "#GND022" H 7450 4150 45  0001 L BNN
@@ -850,7 +850,7 @@ $EndComp
 Wire Wire Line
 	7400 2250 7400 2350
 $Comp
-L SparkFun-PowerSymbols:GND #GND021
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND021
 U 1 1 5FF0FCE7
 P 7400 2350
 F 0 "#GND021" H 7450 2300 45  0001 L BNN
@@ -874,7 +874,7 @@ $EndComp
 Wire Wire Line
 	6550 2250 6550 2350
 $Comp
-L SparkFun-PowerSymbols:GND #GND015
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND015
 U 1 1 5FF12438
 P 6550 2350
 F 0 "#GND015" H 6600 2300 45  0001 L BNN
@@ -945,7 +945,7 @@ F 3 "~" H 5750 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:GND #GND025
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND025
 U 1 1 5FEA8B62
 P 5350 7400
 F 0 "#GND025" H 5400 7350 45  0001 L BNN
@@ -1032,9 +1032,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 6950 4050 6950
 Wire Wire Line
-	3350 7050 4050 7050
+	1900 6650 2450 6650
 $Comp
-L SparkFun-LED:LED-GREEN1206 D4
+L PV-Monitor-rescue:LED-GREEN1206-SparkFun-LED D4
 U 1 1 5FEE1190
 P 3400 4150
 F 0 "D4" V 3600 4100 45  0000 C CNN
@@ -1046,7 +1046,7 @@ F 4 "DIO-00862" V 3550 4100 60  0001 C CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L SparkFun-LED:LED-GREEN1206 D3
+L PV-Monitor-rescue:LED-GREEN1206-SparkFun-LED D3
 U 1 1 5FEE2AEA
 P 3400 3600
 F 0 "D3" V 3600 3550 45  0000 C CNN
@@ -1058,7 +1058,7 @@ F 4 "DIO-00862" V 3150 3550 60  0001 C CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L SparkFun-LED:LED-GREEN1206 D1
+L PV-Monitor-rescue:LED-GREEN1206-SparkFun-LED D1
 U 1 1 5FEE3325
 P 2500 3600
 F 0 "D1" V 2704 3550 45  0000 C CNN
@@ -1070,7 +1070,7 @@ F 4 "DIO-00862" V 2631 3550 60  0001 C CNN "Field4"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-LED:LED-GREEN1206 D2
+L PV-Monitor-rescue:LED-GREEN1206-SparkFun-LED D2
 U 1 1 5FEE39DA
 P 2500 4150
 F 0 "D2" V 2704 4100 45  0000 C CNN
@@ -1112,7 +1112,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4150 2950 4300
 $Comp
-L SparkFun-PowerSymbols:GND #GND024
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND024
 U 1 1 5FF4BCCD
 P 2950 4300
 F 0 "#GND024" H 3000 4250 45  0001 L BNN
@@ -1128,7 +1128,7 @@ Text Label 3450 6850 0    50   ~ 0
 LED_2
 Text Label 3450 6950 0    50   ~ 0
 LED_3
-Text Label 3450 7050 0    50   ~ 0
+Text Label 1900 6650 0    50   ~ 0
 LED_4
 Text Label 4200 3600 0    50   ~ 0
 LED_1
@@ -1196,7 +1196,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 5150 2950 5200
 $Comp
-L SparkFun-PowerSymbols:GND #GND026
+L PV-Monitor-rescue:GND-SparkFun-PowerSymbols #GND026
 U 1 1 5FFB8EBF
 P 2950 5200
 F 0 "#GND026" H 3000 5150 45  0001 L BNN
@@ -1207,13 +1207,13 @@ F 3 "" H 2950 5100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4000 5000 0    50   ~ 0
-5V
+3V3
 Text Label 3900 4750 0    50   ~ 0
 SEL_1
 Text Label 1700 4750 0    50   ~ 0
 SEL_2
 Text Label 1700 5000 0    50   ~ 0
-5V
+3V3
 Wire Wire Line
 	2450 6450 1900 6450
 Wire Wire Line
@@ -1222,4 +1222,10 @@ Text Label 1900 6450 0    50   ~ 0
 SEL_2
 Text Label 1900 6550 0    50   ~ 0
 SEL_1
+Wire Wire Line
+	3350 6250 4050 6250
+Text Label 3450 6250 0    50   ~ 0
+3V3
+Text Notes 3450 7050 0    50   ~ 0
+BUILTIN_LED
 $EndSCHEMATC
